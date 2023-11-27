@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // This stage checks out your source code from the Git repository.
-                checkout([$class: 'GitSCM', branches: [[name: '*/master']], userRemoteConfigs: [[url: 'https://github.com/lakshaygogia7/GitTutorial.git']]])
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], userRemoteConfigs: [[url: 'https://github.com/ritik236/devops.git']]])
             }
         }
         
